@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+<!-- Core configuration -->
+	<name>Blank project</name>
+	<debug enable="f" level="debug"/>
+	<profiler enable="f"/>
+	<lang default="en"/>
+	<!--<deployment enable="true"/>-->
+	<mongo db="myProject"/>
+	<timezone>UTC</timezone>
+	<component name="filesystem">
+		<absolutePath>~/projects/localhost/files</absolutePath>
+	</component>
+</config>
