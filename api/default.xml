@@ -5,6 +5,6 @@
 
 	<param name="name" default="World"/>
 
-	<node name="who">Hello {$.name}!</node>
+	<node name="who">Hello {{$.name}}!</node>
 
 </view>
